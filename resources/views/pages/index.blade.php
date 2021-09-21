@@ -7,6 +7,7 @@
     }
 </style>
 <div class="table_container">
+    <img src="{{ asset('img/golomt_logo.PNG') }}" class="bank_logo" alt="">
     <h1 class="headerz">bom reports</h1>
     <div class="button_holders">
         <button onclick="btnclick('btn1')" class="btnz">BUTTON_1</button>
@@ -99,13 +100,6 @@
         }
     }
 </script>
-
-
-
-
-
-
-
 
 
 
