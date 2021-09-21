@@ -8,6 +8,11 @@
 </style>
 <div class="table_container">
     <h1 class="headerz">bom reports</h1>
+    <div class="button_holders">
+        <button onclick="btnclick('btn1')" class="btnz">BUTTON_1</button>
+        <button onclick="btnclick('btn2')" class="btnz">BUTTON_2</button>
+        <button onclick="btnclick('btn3')" class="btnz">BUTTON_3</button>
+    </div>
     <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
@@ -75,6 +80,37 @@
     </table>
 </div>
     
+
+
+<script>
+    var btnclick= (whichbtn)=>{
+        switch (whichbtn) {
+            case "btn1":
+                window.alert("btn1 clicked");
+                break;
+            case "btn2":
+                window.alert("btn2 clicked");
+                break;
+            case "btn3":
+                window.alert("btn3 clicked");
+                break;
+            default:
+                break;
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
 $(document).ready(function () {
     // Setup - add a text input to each footer cell

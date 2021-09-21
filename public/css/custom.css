@@ -11,6 +11,26 @@
     margin: 20px;
     padding: 10px;
 }
+@media (max-width: 1000px) {
+    .table_container {
+        width: 1000px;
+    }
+}
 body {
     background-color: rgb(240, 238, 238);
+}
+.button_holders {
+    margin: 10px;
+}
+.btnz {
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 7px;
+    background-color: #4caf50;
+    transition: 0.3s;
+}
+.btnz:hover {
+    background-color: #6fbf72;
 }
