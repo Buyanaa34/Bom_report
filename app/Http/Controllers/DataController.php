@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
-class PagesController extends Controller
+use App\Table;
+class DataController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,9 @@ class PagesController extends Controller
      */
     public function index()
     {
-        return view("pages.index");
+        $datas = "sum_data";
+        //$datas = Table::all();
+        return view("pages.index")->with('datas',$datas);
     }
 
     /**

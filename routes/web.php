@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
+Route::get('/', 'DataController@index');
+
+Route::resource('data','DataController');
 
 Route::get('/test', function () {
     return view('pages.example');
