@@ -30,6 +30,7 @@ body {
     margin: 7px;
     background-color: #4caf50;
     transition: 0.3s;
+    border-radius: 5px;
 }
 .btnz:hover {
     background-color: #6fbf72;

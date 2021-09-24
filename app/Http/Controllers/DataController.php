@@ -13,8 +13,8 @@ class DataController extends Controller
      */
     public function index()
     {
-        $datas = "sum_data";
-        //$datas = Table::all();
+        //$datas = "sum_data";
+        $datas = Table::all();
         return view("pages.index")->with('datas',$datas);
     }
 
